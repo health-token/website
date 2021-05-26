@@ -1,0 +1,71 @@
+.tokenomicsView {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 115px;
+}
+
+.tokenomicsDescription {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    text-align: center;
+}
+
+.text {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    color: #3C3C3C;
+}
+
+.subheading {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 108%;
+    color: #3C3C3C;
+    margin-top: 35px;
+}
+
+.containerBig {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 407px;
+    height: 470px;
+    text-align: center;
+}
+
+.containerSmall {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 290px;
+    text-align: center;
+}
+
+.outerContainer {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 40px;
+}
+
+@media only screen and (max-width: 800px) {
+    .containerBig {
+        width: 350px;
+    }
+    .containerSmall {
+        width: 220px;
+    }
+}

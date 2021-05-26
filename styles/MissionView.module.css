@@ -1,0 +1,56 @@
+.missionView {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 220px;
+}
+
+.missionTextContainer {
+    width: 588px;
+    height: 100px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #3C3C3C;
+    margin-top: 115px;
+    margin-right: 20px;
+    text-align: justify;
+}
+
+.getStarted {
+    width: 181px;
+    height: 49px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    line-height: 26px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    background: #5AD710;
+    border-radius: 5px;
+    color: #FFFFFF;
+}
+
+.getStarted:hover,
+.getStarted:focus,
+.getStarted:active {
+    background: transparent;
+    transition: 0.25s ease-in-out;
+    color: #5AD710;
+    border: solid 2px #5AD710;
+}
+
+@media only screen and (max-width: 800px) {
+    .missionTextContainer {
+        width: 400px;
+    }
+    .charityImageContainer {
+        margin-top: 40px;
+        width: 350px;
+        height: 350px;
+    }
+}

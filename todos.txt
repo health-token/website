@@ -1,0 +1,25 @@
+- dodac logo tokena na pancakeswap
+
+- informacje na bsc
+
+- dodac scraping on site
+
+- kupic bilet to amsterdamu
+
+
+> prime investors video
+> stipe shillers
+> tiktok!!
+
+
+Health Handler
+--------------
+
+    use the non-spooonacular meal plans
+
+    allow to get a single meal by id to allow using '?' button
+
+    add tinder swipe for meal plans but using buttons
+    
+    add max length of 3000 for description
+

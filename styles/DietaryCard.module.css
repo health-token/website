@@ -1,0 +1,23 @@
+
+.checkboxContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 80px;
+    margin-top: 20px;
+    width: 800px;
+}
+
+.checkboxContainer input {
+    width: 35px;
+    height: 35px;
+    margin-right: 20px;
+}
+
+.checkboxContainer label {
+    width: 160px;
+    height: 69px;
+    display: flex;
+    align-items: center;
+}

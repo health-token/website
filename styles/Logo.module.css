@@ -1,0 +1,44 @@
+.logoContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.textBit {
+    margin-left: 10px;
+}
+
+.logoMainDark {
+    font-family: Dela Gothic One, cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 31px;
+    color: #393939;
+}
+
+.logoSubDark {
+    font-family: SF UI Display, sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 14px;
+    letter-spacing: 0.24em;
+    margin-bottom: 19px;
+    color: #666666;
+}
+
+.logoMainLight {
+    font-family: Dela Gothic One, cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 31px;
+    color: #FFFFFF;
+}
+
+.logoSubLight {
+    font-family: SF UI Display, sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 14px;
+    letter-spacing: 0.24em;
+    margin-bottom: 19px;
+    color: #ffffff;
+}

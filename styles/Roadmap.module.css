@@ -1,0 +1,59 @@
+.roadmapContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.subtext {
+    font-family: SF UI Display, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    letter-spacing: 0.24em;
+    color: #666666;
+    margin-top: 50px;
+}
+
+.label {
+    margin-top: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 108%;
+    color: #3C3C3C;
+}
+
+.heading {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 51px;
+    line-height: 108%;
+    text-align: center;
+    color: #3C3C3C;
+}
+
+.imageContainer {
+    margin-top: 60px;
+}
+
+.description {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #3C3C3C;
+    margin-top: 10px;
+}
+
+.dot {
+    height: 28px;
+    width: 28px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    border: solid 3px #5AD710;
+}

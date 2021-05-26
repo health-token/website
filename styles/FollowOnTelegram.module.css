@@ -1,0 +1,22 @@
+.followOnTelegram {
+    width: 88%;
+    margin-right: 6%;
+    margin-left: 6%;
+    height: 31vh;
+    background: linear-gradient(268.68deg, #5AD710 -2.63%, #48AC0D 104.46%);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 108%;
+    color: #FFFFFF;
+    margin-top: 90px;
+}
+
+.blank {
+    height: 150px;
+}

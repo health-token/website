@@ -1,0 +1,124 @@
+
+.container {
+    margin: 40px 8% 100px;
+}
+
+.buttonContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.input {
+    width: 100%;
+    border: 1px solid #48AC0D;
+    box-sizing: border-box;
+    border-radius: 8px;
+    height: 70px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    padding: 10px 10px 10px 30px;
+}
+
+.productContainer {
+    user-select: none;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    line-height: 108%;
+    height: 240px;
+    width: 100%;
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    background: #FFFFFF;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    transition: 0.25s;
+}
+
+.productContainer:hover,
+.placeholder:hover
+{
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+    transition: 0.25s ease-in-out;
+}
+
+.selectedProduct {}
+
+.subtext {
+    font-family: SF UI Display, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.24em;
+    color: #666666;
+    margin-bottom: 11px;
+}
+
+.placeholder {
+    width: 250px;
+    height: 250px;
+    background: #FFFFFF;
+    box-shadow: 0 4px 11px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.selectedContainer {
+    display: flex;
+    width: 100%;
+    min-height: 250px;
+    flex-wrap: wrap;
+}
+
+.col {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+.name {
+    font-weight: 500;
+    font-size: 24px;
+    color: #3C3C3C;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+
+.qty {
+    font-weight: 300;
+    font-size: 24px;
+    color: #3C3C3C;
+}
+
+.price {
+    font-weight: 900;
+    font-size: 35px;
+    color: #505050;
+}
+
+@media only screen and (max-width: 1000px) {
+    .placeholder {
+        width: 150px;
+        height: 150px;
+    }
+}

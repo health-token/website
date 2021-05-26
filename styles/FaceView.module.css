@@ -1,0 +1,78 @@
+.facesView {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.container {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.faceContainer {
+    width: 300px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.name {
+    margin-top: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 108%;
+    text-align: center;
+    color: #3C3C3C;
+}
+
+.description {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #3C3C3C;
+    width: 280px;
+    margin-top: 30px;
+}
+
+.imageContainerWithMargin {
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.subtext {
+    font-family: 'SF UI Display', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.24em;
+    color: #666666;
+    margin-top: 10px;
+}
+
+.socialMedia {
+    margin-top: 30px;
+}
+
+@media only screen and (max-width: 800px) {
+    .imageContainer .imageContainerWithMargin {
+        width: 150px;
+        height: 150px;
+    }
+    .faceContainer {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}

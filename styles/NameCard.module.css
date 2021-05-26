@@ -1,0 +1,20 @@
+.textInput {
+    border: 1px solid #CDCDCD;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin-bottom: 60px;
+    width: 800px;
+    height: 70px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 10px 10px 10px 30px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .textInput {
+        width: 600px;
+    }
+}

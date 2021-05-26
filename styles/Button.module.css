@@ -1,0 +1,103 @@
+.green {
+    width: 181px;
+    height: 49px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    line-height: 26px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    background: #5AD710;
+    border-radius: 5px;
+    color: #FFFFFF;
+}
+
+.green:hover,
+.green:focus,
+.green:active {
+    background: transparent;
+    transition: 0.25s ease-in-out;
+    color: #5AD710;
+    border: solid 2px #5AD710;
+}
+
+.white {
+    width: 181px;
+    height: 49px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    line-height: 26px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    border-radius: 5px;
+    color: #5AD710;
+    border: solid 2px #5AD710;
+    font-weight: 500;
+}
+
+.white:hover,
+.white:focus,
+.white:active {
+    background: #5AD710;
+    color: #FFFFFF;
+    border: 0;
+    transition: 0.25s ease-in-out;
+}
+
+.disabled {
+    width: 181px;
+    height: 49px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    line-height: 26px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    border-radius: 5px;
+    color: #686868;
+    border: solid 2px #686868;
+    font-weight: 500;
+}
+
+.previous {
+    color: #D8D8D8;
+    width: 181px;
+    height: 49px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    border-radius: 5px;
+    border: solid 2px #D8D8D8;
+}
+
+.connect {
+    width: 167px;
+    height: 53px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    line-height: 26px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    background: #FFFFFF;
+    border: 2px solid gray;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-weight: 500;
+    user-select: none;
+}
+
+.connect:hover,
+.connect:focus,
+.connect:active {
+   border: 2px solid #5AD710;
+   transition: 0.25s ease-in-out;
+}
